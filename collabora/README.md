@@ -8,6 +8,8 @@ This Alfresco Docker Compose template provides a simple configuration to test th
 
 ## Using
 
+Build `aca-collabora:0.6.0` Docker Image following instructions in [building/aca-collabora](building/aca-collabora) folder.
+
 Review the following lines in [docker-compose.yml](docker-compose.yml) file...
 
 ```
@@ -30,9 +32,18 @@ Every document able to be used with *Collabora Online* will include a new **Edit
 
 ## Service URLs
 
+Legacy UI (Share)
+
 http://192.168.1.143:8080/share (use your local IP instead of `192.168.1.143`)
 
 user: admin
 password: admin
 
+
+ADF UI (Alfresco Content App)
+
+http://192.168.1.143:8080/ (use your local IP instead of `192.168.1.143`)
+
+user: admin
+password: admin
 
