@@ -37,3 +37,6 @@ user: admin
 password: admin
 
 
+## ADW Support
+
+Applying ONLYOFFICE integration to [ADW](https://docs.alfresco.com/digital-workspace/latest/) is described in https://github.com/atolcd/adf-onlyoffice-extension#installation
