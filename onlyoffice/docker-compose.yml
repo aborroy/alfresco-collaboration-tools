@@ -1,6 +1,5 @@
 version: '2'
 services:
-services:
   alfresco:
     build:
       context: ./alfresco
